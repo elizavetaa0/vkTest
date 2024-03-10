@@ -1,4 +1,4 @@
-[
+export const mockGroups = [
   {
     "id": 1,
     "name": "Котики",

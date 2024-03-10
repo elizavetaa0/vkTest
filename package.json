@@ -1,0 +1,46 @@
+{
+  "name": "vktest",
+  "version": "1.0.0",
+  "description": "Создайте простое react приложение, состоящее из одной страницы, которое при открытии будет запрашивать список групп с backend (замокайте ответ метода данными из файла `groups.json`).",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js --env env=prod",
+    "start": "webpack serve --config webpack/webpack.config.js --env env=dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "autoprefixer": "^10.4.18",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.10.0",
+    "cssnano": "^6.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "merge": "^2.1.1",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss-loader": "^8.1.1",
+    "react-refresh": "^0.14.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@vkontakte/vkui": "^6.0.1",
+    "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
